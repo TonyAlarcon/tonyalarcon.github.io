@@ -35,6 +35,14 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        {% if page.social %}
+          <div class="social profile-social">
+            <div class="contact-icons">{% social_links %}</div>
+            {% if site.contact_note %}
+              <div class="contact-note">{{ site.contact_note }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -43,9 +51,9 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Selected News</a>
       </h2>
-      {% include news.liquid limit=true %}
+      {% include news.liquid limit=true selected=true %}
     {% endif %}
 
     <!-- Latest posts -->
@@ -59,18 +67,48 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
+    {% if page.selected_projects %}
+      {% assign selected_projects = site.projects | where: "selected", true | sort: "importance" %}
+      {% if selected_projects.size > 0 %}
+        <h2>
+          <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Selected Projects</a>
+        </h2>
+        <div class="selected-projects">
+          {% for project in selected_projects %}
+            <div class="card h-100 hoverable selected-project-card">
+              <div class="row no-gutters">
+                {% if project.img %}
+                  <div class="col-md-4">
+                    <img src="{{ project.img | relative_url }}" alt="{{ project.title }} thumbnail" class="selected-project-thumb">
+                  </div>
+                {% endif %}
+                <div class="{% if project.img %}col-md-8{% else %}col-md-12{% endif %}">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+                        {{ project.title }}
+                      </a>
+                    </h3>
+                    <p class="card-text">{{ project.description }}</p>
+                    {% if project.github %}
+                      <div class="github-icon">
+                        <div class="icon" data-toggle="tooltip" title="Code Repository">
+                          <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                        </div>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

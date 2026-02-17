@@ -1,6 +1,10 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% assign news_collection = site.news %}
+  {% if include.selected %}
+    {% assign news_collection = news_collection | where: 'selected', true %}
+  {% endif %}
+  {% if news_collection != blank %}
+    {% assign news_size = news_collection | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -8,7 +12,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign news = news_collection | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}

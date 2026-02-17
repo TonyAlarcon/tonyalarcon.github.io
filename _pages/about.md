@@ -2,19 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Graduate Candidate (4th year) at the University of Notre Dame
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: tony.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_projects: true # includes a list of projects marked as "selected: true"
+social: true # includes social icons in the profile section
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +19,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a <span class="about-highlight">Ph.D. candidate in Computer Science and Engineering</span> at the University of Notre Dame, where I develop AI-enabled autonomy for UAV systems operating in complex and safety-critical environments. I earned my <span class="about-highlight">M.S. in Computer Science and Engineering</span> from Notre Dame and previously completed a <span class="about-highlight">B.S. in Astrophysics</span> at UCLA.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on reinforcement learning, large language models, coverage path planning, and uncertainty-aware decision-making for autonomous aerial systems. I am particularly interested in building autonomy stacks that are not only intelligent, but trustworthy and deployable in real-world missions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My work has been published across leading venues in robotics, AI, and cyber-physical systems, including ICRA, *Machine Learning with Applications* (MLWA), CAIN, IEEE RE, ENVIRE, and AIAA Aviation. These contributions span safe separation requirements, UAV health analytics, digital twins, and multi-agent reinforcement learning.
+
+My work and teaching have been recognized through distinctions, honors, and awards, including the Kaneb Outstanding Graduate Teaching Assistant Award at Notre Dame, Best Data Science Project Presentation, and academic honors at Santa Monica College and UCLA.

@@ -24,10 +24,11 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    border-top: 2px solid var(--global-text-color);
     padding-top: 1rem;
     margin-top: 2rem;
+    font-weight: 700;
     text-align: right;
   }
 
@@ -38,6 +39,8 @@
 
     li {
       margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--global-divider-color);
 
       .preview {
         display: inline-block;
@@ -82,8 +85,10 @@
         }
 
         > em {
-          border-bottom: 1px solid;
+          border-bottom: 0;
+          font-weight: 700;
           font-style: normal;
+          text-decoration: underline;
         }
 
         > span.more-authors {
