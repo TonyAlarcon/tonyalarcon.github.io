@@ -7,3 +7,35 @@
 
 "Vision":
   color: "#009f36"
+
+"ICRA":
+  url: https://www.icra2026.org/
+  color: "#0d6efd"
+
+"CAIN":
+  url: https://conf.researchr.org/home/cain-2026
+  color: "#d63384"
+
+"MLWA":
+  url: https://www.sciencedirect.com/journal/machine-learning-with-applications
+  color: "#198754"
+
+"MODELS-C":
+  url: https://conf.researchr.org/home/models-2025
+  color: "#7c3aed"
+
+"AIAA":
+  url: https://www.aiaa.org/aviation
+  color: "#6f42c1"
+
+"RE":
+  url: https://conf.researchr.org/home/RE-2025
+  color: "#fd7e14"
+
+"REW":
+  url: https://conf.researchr.org/home/rew-2024
+  color: "#20c997"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#6c757d"
