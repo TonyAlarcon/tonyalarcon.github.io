@@ -19,4 +19,5 @@ The experiments examine how policy design and coordination strategy affect searc
 **Project links**
 
 - Paper (DOI): [Multi-source plume tracing via multi-agent reinforcement learning under Common UAV-faults](https://doi.org/10.1016/j.mlwa.2025.100737)
+- Preprint (arXiv): [arXiv:2505.08825](https://arxiv.org/abs/2505.08825)
 - Code: [ADDRQN-MARL-Plume-Tracing](https://github.com/TonyAlarcon/ADDRQN-MARL-Plume-Tracing)
