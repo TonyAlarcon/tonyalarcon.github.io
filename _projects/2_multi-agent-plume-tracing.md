@@ -5,6 +5,7 @@ description: Fault-aware, uncertainty-tolerant MARL for multi-source plume local
 img: assets/img/publication_preview/plume_tracing_thumbnail.png
 importance: 2
 category: work
+github: https://github.com/TonyAlarcon/ADDRQN-MARL-Plume-Tracing
 ---
 
 This project studies **multi-agent reinforcement learning (MARL)** for locating and tracing multiple hazardous plumes with UAV teams in realistic conditions.
@@ -18,4 +19,4 @@ The experiments examine how policy design and coordination strategy affect searc
 **Project links**
 
 - Paper (DOI): [Multi-source plume tracing via multi-agent reinforcement learning under Common UAV-faults](https://doi.org/10.1016/j.mlwa.2025.100737)
-- Code: Coming soon
+- Code: [ADDRQN-MARL-Plume-Tracing](https://github.com/TonyAlarcon/ADDRQN-MARL-Plume-Tracing)
