@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-03-11'
 papers:
   LBmWfggAAAAJ:2osOgNQ5qMEC:
-    citations: 5
+    citations: 6
     title: Coverage Path Planning for Holonomic UAVs via Uniaxial-Feasible, Gap-Severity Guided Decomposition
     year: '2025'
   LBmWfggAAAAJ:9yKSN-GCB0IC:
@@ -18,7 +18,7 @@ papers:
     title: Multi-source plume tracing via multi-agent reinforcement learning under Common UAV-faults
     year: '2025'
   LBmWfggAAAAJ:UeHWp8X0CEIC:
-    citations: 4
+    citations: 5
     title: Cognitive guardrails for open-world decision making in autonomous drone swarms
     year: '2025'
   LBmWfggAAAAJ:W7OEmFMy1HYC:
@@ -42,6 +42,6 @@ papers:
     title: Towards an Annotated All-Weather Dataset of Flight Logs for Small Uncrewed Aerial System
     year: '2023'
   LBmWfggAAAAJ:zYLM7Y9cAGgC:
-    citations: 1
+    citations: 2
     title: Validating Terrain Models in Digital Twins for Trustworthy sUAS Operations
     year: '2025'
