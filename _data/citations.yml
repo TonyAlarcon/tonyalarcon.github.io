@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-13'
 papers:
   LBmWfggAAAAJ:2osOgNQ5qMEC:
-    citations: 6
+    citations: 7
     title: Coverage Path Planning for Holonomic UAVs via Uniaxial-Feasible, Gap-Severity Guided Decomposition
     year: '2025'
   LBmWfggAAAAJ:9yKSN-GCB0IC:
@@ -30,7 +30,7 @@ papers:
     title: 'QUESTRL: A Q&A Framework for Designing Trustworthy Reinforcement Learning Systems'
     year: '2025'
   LBmWfggAAAAJ:d1gkVwhDpl0C:
-    citations: 25
+    citations: 26
     title: 'RESAM: Requirements elicitation and specification for deep-learning anomaly models with applications to UAV flight controllers'
     year: '2022'
   LBmWfggAAAAJ:u-x6o8ySG0sC:
