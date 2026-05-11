@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-05-11'
 papers:
   LBmWfggAAAAJ:2osOgNQ5qMEC:
-    citations: 8
+    citations: 9
     title: Coverage Path Planning for Holonomic UAVs via Uniaxial-Feasible, Gap-Severity Guided Decomposition
     year: '2025'
   LBmWfggAAAAJ:9yKSN-GCB0IC:
@@ -14,7 +14,7 @@ papers:
     title: Automated On-Entry Decision-Making for UTM Zones Based on Reputations and Certifications
     year: '2025'
   LBmWfggAAAAJ:Tyk-4Ss8FVUC:
-    citations: 1
+    citations: 2
     title: Multi-source plume tracing via multi-agent reinforcement learning under Common UAV-faults
     year: '2025'
   LBmWfggAAAAJ:UeHWp8X0CEIC:
