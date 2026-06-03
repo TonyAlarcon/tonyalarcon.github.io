@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-11'
+  last_updated: '2026-06-03'
 papers:
   LBmWfggAAAAJ:2osOgNQ5qMEC:
     citations: 9
     title: Coverage Path Planning for Holonomic UAVs via Uniaxial-Feasible, Gap-Severity Guided Decomposition
     year: '2025'
   LBmWfggAAAAJ:9yKSN-GCB0IC:
-    citations: 1
+    citations: 2
     title: Evaluating Reinforcement Learning Safety and Trustworthiness in Cyber-Physical Systems
     year: '2025'
   LBmWfggAAAAJ:IjCSPb-OGe4C:
