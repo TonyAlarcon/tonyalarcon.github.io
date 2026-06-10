@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-10'
 papers:
   LBmWfggAAAAJ:2osOgNQ5qMEC:
     citations: 9
@@ -14,11 +14,11 @@ papers:
     title: Automated On-Entry Decision-Making for UTM Zones Based on Reputations and Certifications
     year: '2025'
   LBmWfggAAAAJ:Tyk-4Ss8FVUC:
-    citations: 2
+    citations: 3
     title: Multi-source plume tracing via multi-agent reinforcement learning under Common UAV-faults
     year: '2025'
   LBmWfggAAAAJ:UeHWp8X0CEIC:
-    citations: 5
+    citations: 6
     title: Cognitive guardrails for open-world decision making in autonomous drone swarms
     year: '2025'
   LBmWfggAAAAJ:W7OEmFMy1HYC:
@@ -34,7 +34,7 @@ papers:
     title: 'RESAM: Requirements elicitation and specification for deep-learning anomaly models with applications to UAV flight controllers'
     year: '2022'
   LBmWfggAAAAJ:u-x6o8ySG0sC:
-    citations: 11
+    citations: 13
     title: An environmentally complex requirement for safe separation distance between uavs
     year: '2024'
   LBmWfggAAAAJ:u5HHmVD_uO8C:
