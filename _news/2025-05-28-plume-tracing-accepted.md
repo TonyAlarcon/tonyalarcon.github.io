@@ -6,4 +6,4 @@ related_posts: false
 selected: true
 ---
 
-Journal acceptance: "Multi-source Plume Tracing via Multi-agent Reinforcement Learning under Common UAV-faults" was accepted to *Machine Learning with Applications* (MLWA) 🧪
+Journal acceptance: "Multi-source Plume Tracing via Multi-agent Reinforcement Learning under Common UAV-faults" was accepted to _Machine Learning with Applications_ (MLWA) 🧪

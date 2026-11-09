@@ -16,6 +16,9 @@ These publications can also be found on my [Google Scholar](https://scholar.goog
 {% include bib_search.liquid %}
 
 <div class="publications">
+  <h2 class="bibliography">2026</h2>
+  {% bibliography --query @*[list_order=y2026_01] --group_by none %}
+
   <h2 class="bibliography">2025</h2>
   {% bibliography --query @*[list_order=y2025_01] --group_by none %}
   {% bibliography --query @*[list_order=y2025_02] --group_by none %}
